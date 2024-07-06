@@ -1,0 +1,484 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+/*Width upto-750px*/
+@media (max-width:750px){
+    .navbar{
+        background-color: #A0937D;
+    }
+    
+    .navbar-toggler{
+        background-color: #ffffff;
+    }
+    
+    .navbar-btn{
+        background-color: #E76F51;
+        border-radius: 16px;
+        color: #ffffff;
+    }
+    .nav-item{
+        color: #B6C7AA;
+        font-weight: bold;
+    }
+    
+    .nav-btn-container{
+        margin-top: 3px;
+    }
+
+    /*Banner-Section*/
+    .banner-section{
+        background-image: url('./images/globeimage.jpg');
+        height: 35vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-content{
+        color: #ffffff;
+        text-align: center;
+
+
+    }
+    .banner-title{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .banner-sub-title{
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .banner-description{
+        font-size: 20px;
+    }
+    /*Form-Container*/
+    .form-container{
+        padding: 30px;
+    }
+    .form-title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .form-heading{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .input-element{
+        width: 100%;
+        height: 35px;
+        padding: 4px;
+    }
+    .comments{
+        width: 100%;
+        height: 35px;
+        padding: 4px;
+    }
+    #checkbox{
+        height: 15px;
+        width: 15px;
+    }
+    .btn-container{
+        text-align: center;
+    
+    }
+    .submit-btn{
+        background-color: #DB764A;
+        border-radius: 20px;
+        border-color: #DB764A;
+        padding: 6px; 
+    }
+    /*Location-Section*/
+    .location-section{
+        background-color: #F6E6CB;
+    }
+    .location-title{
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+    }
+    .location-img-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .location-img{
+        height: 150px;
+        width: 300px;
+        border-radius: 12px;
+    }
+    .location{
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .locations-container{
+        padding: 30px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .location-name{
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+    }
+    .office-address{
+        color: #373A40;
+        font-size: 16px;
+    }
+    .location-img-card{
+        background-color: #ffffff;
+        width: 350px;
+        height: 190px;
+        text-align: center;
+        padding:15px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+    /*Footer-section*/
+    .footer-section{
+        background-color: #000000;
+        padding: 30px;
+        text-align: center;
+
+        
+    }
+    .footer-title{
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .footer-para{
+        color: #726f6ded;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+
+
+/*width from 751px to 1199px*/
+@media (min-width:751px) and (max-width:1199px){
+.navbar{
+        background-color: #A0937D;
+    }
+    
+    .navbar-toggler{
+        background-color: #ffffff;
+    }
+    
+    .navbar-btn{
+        background-color: #E76F51;
+        border-radius: 16px;
+        color: #ffffff;
+    }
+    .nav-item{
+        color: #B6C7AA;
+        font-weight: bold;
+    }
+    
+    .nav-btn-container{
+        text-align: center;
+        margin-top: 3px;
+    }
+    
+    /*Banner-Section*/
+    .banner-section{
+        background-image: url('./images/globeimage.jpg');
+        height: 35vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-content{
+        color: #ffffff;
+        text-align: center;
+    }
+    .banner-title{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .banner-sub-title{
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .banner-description{
+        font-size: 20px;
+    }
+    
+    /*Form-Container*/
+    .form-container{
+        padding: 30px;
+    }
+    .form-title{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .form-heading{
+        font-weight: bold;
+    }
+    .input-element{
+        width: 100%;
+        height: 40px;
+        padding: 6px;
+    }
+    .comments{
+        width: 100%;
+        height: 40px;
+        padding: 6px;
+    }
+    #checkbox{
+        height: 15px;
+        width: 15px;
+    }
+    .btn-container{
+        text-align: center;
+    
+    }
+    .submit-btn{
+        background-color: #DB764A;
+        border-radius: 20px;
+        border-color: #DB764A;
+        padding: 6px; 
+    }
+    
+    /*Location-Section*/
+    .location-section{
+        background-color: #F6E6CB;
+    }
+    .location-title{
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+    }
+    .location-img-section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .location-img{
+        height: 160px;
+        width: 250px;
+        border-radius: 12px;
+    }
+    .location{
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+    }
+    .locations-container{
+        padding: 30px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .location-name{
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+    }
+    .office-address{
+        color: #373A40;
+        font-size: 16px;
+    }
+    .location-img-card{
+        background-color: #ffffff;
+        width: 300px;
+        height: 210px;
+        text-align: center;
+        padding:15px;
+        border-radius: 12px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    
+    /*Footer-section*/
+    .footer-section{
+        background-color: #000000;
+        padding: 30px;
+        text-align: center;
+        
+    }
+    .footer-title{
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .footer-para{
+        color: #726f6ded;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+/*width greater than 1200px*/
+@media (min-width:1200px) and (max-width:1600px){
+    .navbar{
+        background-color: #A0937D;
+    }
+    
+    .navbar-toggler{
+        background-color: #ffffff;
+    }
+    
+    .navbar-btn{
+        background-color: #E76F51;
+        border-radius: 16px;
+        color: #ffffff;
+    }
+    .nav-item{
+        color: #B6C7AA;
+        font-weight: bold;
+    }
+    
+    .nav-btn-container{
+        text-align: center;
+        margin-top: 3px;
+    }
+    
+    /*Banner-Section*/
+    .banner-section{
+        background-image: url('./images/globeimage.jpg');
+        height: 50vh;
+        background-size: cover;
+    }
+    .banner-content{
+        color: #ffffff;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .banner-title{
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .banner-sub-title{
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .banner-description{
+        font-size: 20px;
+    }
+    
+    /*Form-Container*/
+    .form-container{
+        padding: 30px;
+    }
+    .form-title{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .form-heading{
+        font-weight: bold;
+    }
+    .left-input-element{
+        float: left;
+        width: 48%;
+    }
+    .right-input-element{
+        float: right;
+        width: 48%;
+    }
+    .float-clear{
+        clear: both;
+    }
+    .input-element{
+        width: 100%;
+        height: 60px;
+        padding: 8px;
+    }
+    .comments{
+        width: 100%;
+        height: 60px;
+        padding: 8px;
+    }
+    #checkbox{
+        height: 15px;
+        width: 15px;
+    }
+    .btn-container{
+        text-align: center;
+    
+    }
+    .submit-btn{
+        background-color: #DB764A;
+        border-radius: 20px;
+        border-color: #DB764A;
+        padding: 6px; 
+    }
+    
+    /*Location-Section*/
+    .location-section{
+        background-color: #686D76;
+    }
+    .location-title{
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+    }
+    .location-img-section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .location-img{
+        height: 230px;
+        width: 450px;
+        border-radius: 12px;
+    }
+    .location{
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .locations-container{
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .location-name{
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+    }
+    .office-address{
+        color: #373A40;
+        font-size: 16px;
+    }
+    .location-img-card{
+        background-color: #ffffff;
+        width: 500px;
+        height: 300px;
+        text-align: center;
+        padding: 30px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+    
+    /*Footer-section*/
+    .footer-section{
+        background-color: #000000;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .footer-title{
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .footer-para{
+        color: #726f6ded;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .section-width{
+        width: 18%;
+    
+    }
+}
